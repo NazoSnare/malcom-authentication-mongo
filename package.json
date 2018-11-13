@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/NazoSnare/malcom-authentication-mongo#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
     "config": "^2.0.1",
-    "jsonwebtoken": "^8.3.0"
+    "jsonwebtoken": "^8.3.0",
+    "random-string-module": "^0.10.0"
   }
 }
