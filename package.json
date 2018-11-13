@@ -1,0 +1,28 @@
+{
+  "name": "malcom-authentication-mongo",
+  "version": "1.0.0",
+  "description": "Authentication middleware to avoid duplicates in code DRY.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazoSnare/malcom-authentication-mongo.git"
+  },
+  "keywords": [
+    "Authentication",
+    "Login",
+    "route-protect"
+  ],
+  "author": "Malcom Miya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazoSnare/malcom-authentication-mongo/issues"
+  },
+  "homepage": "https://github.com/NazoSnare/malcom-authentication-mongo#readme",
+  "dependencies": {
+    "config": "^2.0.1",
+    "jsonwebtoken": "^8.3.0"
+  }
+}
