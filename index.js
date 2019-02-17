@@ -19,7 +19,7 @@ function auth(req, res, next,jwtSecret) {
 
 
   try {
-    const decoded = jwt.verify(token, config.get('jwtPrivateKey'));
+    const decoded = jwt.verify(token, jwtSecret);
     req.user = decoded;
     console.log(chalk.green('Valid Token'));
     next();
