@@ -2,7 +2,15 @@ const jwt = require('jsonwebtoken');
 const config = require('config');
 const chalk = require('chalk');
 
-function auth(req, res, next) {
+/**
+ * To check whether user is authenticated if authenticated then route can be accessed
+ * Pass route handler middleware with jwtSecret as additional parameter
+ * @param {*} req 
+ * @param {*} res 
+ * @param {*} next - 
+ * @param {*} jwtSecret - jwt secret key here
+ */
+function auth(req, res, next,jwtSecret) {
   const token = req.header('malcom-auth-token');
   if (!token) {
     console.log(chalk.red('Access denied, No token provided'));
