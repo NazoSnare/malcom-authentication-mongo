@@ -1,6 +1,6 @@
 {
   "name": "malcom-authentication-mongo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Authentication middleware to avoid duplicates in code DRY.",
   "main": "index.js",
   "scripts": {
